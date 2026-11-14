@@ -8,7 +8,7 @@ A time past the end, an empty field, or a string that isn’t that clock shows �
 
 The time is the clock of whatever the player is showing: the working video, a source opened from Media, or an open Before or After.
 
-`pnpm --filter @scarlet/web test` — 112 files, 1339 passed. `pnpm typecheck` — passed. `pnpm --filter @scarlet/server test` — 977 passed, 7 skipped. The rest of `pnpm -r test` passed except three `packages/render` ffmpeg tests on this machine (`Unrecognized option '/filter_complex'`, progress 0.9 vs 1); they do not use this change. The repo has no lint script.
+`pnpm --filter @scarlet/web test` — 113 files, 1345 passed. `pnpm typecheck` — passed. `pnpm --filter @scarlet/server test` — 977 passed, 7 skipped. The rest of `pnpm -r test` passed except three `packages/render` ffmpeg tests on this machine (`Unrecognized option '/filter_complex'`, progress 0.9 vs 1); they do not use this change. The repo has no lint script.
 
 Recorded in the native demo app (`16a6652`): G, type 0:05.600, Enter (clock and playhead at 0:05, paused); G, type 0:40, Enter (error “Enter a time between 0:00 and 0:16.”, playhead unmoved); Escape closes the field.
 
