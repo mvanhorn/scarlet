@@ -1,0 +1,299 @@
+[2026-11-14][23:43:39][scarlet_desktop_lib][INFO] Scarlet desktop 0.1.4 starting; data /tmp/jump-rerecord/profile/data/com.forwardfuture.scarlet.demo/data; config /tmp/jump-rerecord/profile/config/com.forwardfuture.scarlet.demo/desktop.json
+[2026-11-14][23:43:39][scarlet_desktop_lib][INFO] engine command: /home/ubuntu/.nvm/versions/node/v22.23.4/bin/node /workspace/apps/server/dist/cli.js (dev)
+[2026-11-14][23:43:40][scarlet_desktop_lib::commands][INFO] [ui] [app] 23:43:40.256 +0ms start version=0.1.4 revision=16a665257607 width=1440 height=900 scale=1 agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+[2026-11-14][23:43:40][scarlet_desktop_lib::commands][INFO] [ui] [nav] 23:43:40.257 +0ms open to=/p/prj_demo?thread
+[2026-11-14][23:43:41][scarlet_desktop_lib::commands][INFO] [ui] ui auth=idle server=http://127.0.0.1:5174 user=- path=/p/prj_demo
+[2026-11-14][23:43:41][scarlet_desktop_lib::commands][INFO] [ui] ui auth=idle server=http://127.0.0.1:5174 user=- path=/p/prj_demo
+[2026-11-14][23:43:41][scarlet_desktop_lib::commands][INFO] [ui] ui auth=loading server=http://127.0.0.1:5174 user=- path=/p/prj_demo
+[2026-11-14][23:43:41][scarlet_desktop_lib::commands][INFO] [ui] ui auth=ready server=http://127.0.0.1:5174 user=Demo Editor path=/p/prj_demo
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:41.974 +0ms transport attach el=v1 name="The current edit" streamed=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:41.981 +6ms monitor shows=player selection=ver_3 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:41.984 +3ms transport detach el=v1 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:41.985 +1ms transport attach el=v1 name="The current edit" streamed=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:41.986 +1ms monitor shows=player selection=ver_3 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.332 +347ms loadstart el=v1 name="The current edit" src=/sample.mp4 t=0 ready=0 net=2 paused=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.457 +124ms transport detach el=v1 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.459 +3ms transport attach el=v2 name="The current edit" streamed=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.460 +1ms transport detach el=v2 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.460 +0ms transport attach el=v2 name="The current edit" streamed=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.470 +10ms transport detach el=v2 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.472 +2ms transport attach el=v3 name="The current edit" streamed=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.474 +2ms monitor shows=file selection=ver_3 file="/sample.mp4#render=rnd_full_head" cache=ready playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.474 +0ms transport detach el=v3 playing=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.474 +0ms transport attach el=v3 name="The current edit" streamed=false at=0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.520 +46ms loadstart el=v3 name="The current edit" src=/sample.mp4 t=0 ready=0 net=2 paused=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.521 +0ms loadstart el=v4 name=video src=/sample.mp4 t=0 ready=0 net=2 paused=true muted=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.671 +150ms loadedmetadata el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.671 +1ms loadeddata el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=true seeking=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.671 +0ms canplay el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=true seeking=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.672 +0ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.672 +1ms seeked el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.685 +13ms loadedmetadata el=v4 name=video src=/sample.mp4 t=0 ready=4 net=1 paused=true muted=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.686 +0ms loadeddata el=v4 name=video src=/sample.mp4 t=0 ready=4 net=1 paused=true muted=true buf=[] frames=0/0
+[2026-11-14][23:43:42][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:43:42.686 +0ms canplay el=v4 name=video src=/sample.mp4 t=0 ready=4 net=1 paused=true muted=true buf=[] frames=0/0
+[2026-11-14][23:43:43][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:43.334 +0ms task.event project=prj_demo task=task_running event=ev_gmfoux27uusf
+[2026-11-14][23:43:45][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:44.754 +1419ms render.updated project=prj_demo render=rnd_a2:running
+[2026-11-14][23:43:45][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:45.658 +904ms render.updated project=prj_demo render=rnd_a2:running
+[2026-11-14][23:43:45][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:45.898 +241ms task.event project=prj_demo task=task_running event=ev_l077gt5zctxg
+[2026-11-14][23:43:46][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:46.558 +659ms render.updated project=prj_demo render=rnd_a2:running
+[2026-11-14][23:43:47][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:47.459 +902ms render.updated project=prj_demo render=rnd_a2:running
+[2026-11-14][23:43:48][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:48.359 +900ms render.updated project=prj_demo render=rnd_a2:done
+[2026-11-14][23:43:48][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:48.360 +1ms change.updated project=prj_demo change=chg_rendering:ready
+[2026-11-14][23:43:49][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:49.102 +742ms task.updated project=prj_demo task=task_running:claimed
+[2026-11-14][23:43:50][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:49.803 +700ms task.updated project=prj_demo task=task_running:running
+[2026-11-14][23:43:50][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:49.825 +23ms task.event project=prj_demo task=task_running event=ev_yn2ucsxyztdt
+[2026-11-14][23:43:51][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:51.203 +1378ms task.event project=prj_demo task=task_running event=ev_ve10ulshpjrb
+[2026-11-14][23:43:52][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:52.603 +1400ms task.event project=prj_demo task=task_running event=ev_kollrcdzq7qs
+[2026-11-14][23:43:54][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:53.812 +2ms task.event project=prj_demo task=task_running event=ev_gj10k0cbvnai x2
+[2026-11-14][23:43:54][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:53.819 +7ms change.updated project=prj_demo change=chg_pl8foa0emd3m:ready
+[2026-11-14][23:43:54][scarlet_desktop_lib::commands][INFO] [ui] [realtime] 23:43:53.929 +111ms task.updated project=prj_demo task=task_running:done
+[2026-11-14][23:45:15][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:45:15.698 +0ms click on="The current edit" kind=video in="Working edit"
+[2026-11-14][23:45:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:15.700 +93014ms transport play at=0 el=v3 ready=4
+[2026-11-14][23:45:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:15.706 +7ms play el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false buf=[] frames=0/0
+[2026-11-14][23:45:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:15.811 +105ms playing el=v3 name="The current edit" src=/sample.mp4 t=1.2 ready=4 net=1 paused=false buf=[] frames=1/1
+[2026-11-14][23:45:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:15.853 +42ms jump el=v3 from=1.2 to=3 ms=40
+[2026-11-14][23:45:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:15.893 +40ms jump el=v3 from=3 to=3.667 ms=39
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:15.965 +71ms jump el=v3 from=3.667 to=5.02 ms=71
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.015 +50ms jump el=v3 from=5.22 to=6.02 ms=38
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.064 +50ms jump el=v3 from=6.02 to=7.02 ms=50
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.107 +42ms jump el=v3 from=7.43 to=7.82 ms=17
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.178 +71ms jump el=v3 from=7.82 to=9.22 ms=69
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.254 +76ms jump el=v3 from=9.22 to=10.62 ms=79
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.283 +30ms jump el=v3 from=10.62 to=11.22 ms=29
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.306 +22ms jump el=v3 from=11.22 to=11.64 ms=22
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.334 +29ms jump el=v3 from=11.64 to=12.24 ms=28
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.365 +31ms jump el=v3 from=12.24 to=12.86 ms=31
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.384 +18ms jump el=v3 from=12.86 to=13.26 ms=19
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.401 +18ms jump el=v3 from=13.26 to=13.66 ms=18
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.437 +36ms jump el=v3 from=13.87 to=14.27 ms=19
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.466 +29ms jump el=v3 from=14.27 to=14.87 ms=29
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.499 +32ms jump el=v3 from=15.07 to=15.47 ms=21
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.514 +16ms jump el=v3 from=15.47 to=15.87 ms=15
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.533 +19ms jump el=v3 from=15.87 to=16.27 ms=19
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.637 +104ms jump el=v3 from=16.67 to=18.27 ms=75
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.655 +17ms jump el=v3 from=18.27 to=18.67 ms=16
+[2026-11-14][23:45:16][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:16.687 +32ms jump el=v3 from=18.89 to=19.29 ms=16
+[2026-11-14][23:45:18][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:17.764 +1077ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:45:18][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:17.767 +4ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:45:32][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:32.436 +14668ms transport seek to=0.249 playing=false ready=4
+[2026-11-14][23:45:32][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:45:32.447 +16749ms click on=div.timeline-range-zone in="Working edit" across=0.016
+[2026-11-14][23:45:32][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:32.495 +60ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true seeking=true buf=[] frames=1/1
+[2026-11-14][23:45:33][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:32.853 +358ms seeked el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:45:33][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:45:33.689 +1241ms click on=div.monitor-playback in="Working edit" across=0.574
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:45:57.773 +24084ms click on=div.video-surface in="Working edit" across=0.076
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.773 +24920ms transport play at=0.249 el=v3 ready=4
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.794 +21ms play el=v3 name="The current edit" src=/sample.mp4 t=0.449 ready=4 net=1 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.804 +9ms playing el=v3 name="The current edit" src=/sample.mp4 t=0.449 ready=4 net=1 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.818 +15ms jump el=v3 from=0.449 to=1.049 ms=10
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.830 +12ms jump el=v3 from=1.049 to=1.449 ms=18
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.886 +55ms jump el=v3 from=1.649 to=2.449 ms=47
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.921 +36ms jump el=v3 from=2.449 to=3.039 ms=26
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.934 +13ms jump el=v3 from=3.039 to=3.449 ms=19
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:57.962 +28ms jump el=v3 from=3.649 to=4.049 ms=18
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.009 +47ms jump el=v3 from=4.049 to=4.849 ms=47
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.024 +14ms jump el=v3 from=4.849 to=5.249 ms=15
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.055 +32ms jump el=v3 from=5.449 to=6.069 ms=16
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.088 +33ms jump el=v3 from=6.269 to=6.669 ms=14
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.124 +36ms jump el=v3 from=6.669 to=7.289 ms=36
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.143 +18ms jump el=v3 from=7.289 to=7.899 ms=13
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.162 +19ms jump el=v3 from=7.899 to=8.299 ms=19
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.181 +20ms jump el=v3 from=8.299 to=8.699 ms=20
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.255 +74ms jump el=v3 from=9.099 to=10.099 ms=47
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.296 +41ms jump el=v3 from=10.699 to=11.309 ms=11
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.315 +18ms jump el=v3 from=11.309 to=11.709 ms=18
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.370 +55ms jump el=v3 from=11.909 to=12.709 ms=37
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.402 +33ms jump el=v3 from=12.909 to=13.309 ms=19
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.434 +32ms jump el=v3 from=13.509 to=13.909 ms=16
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.468 +34ms jump el=v3 from=14.109 to=14.509 ms=18
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.561 +93ms jump el=v3 from=14.509 to=16.319 ms=94
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:45:58.573 +800ms key key=g
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.632 +71ms jump el=v3 from=16.719 to=17.729 ms=49
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.666 +34ms jump el=v3 from=17.729 to=18.329 ms=33
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.683 +16ms jump el=v3 from=18.329 to=18.729 ms=13
+[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.726 +44ms jump el=v3 from=18.929 to=19.529 ms=35
+[2026-11-14][23:45:59][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.939 +213ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:45:59][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:45:58.942 +3ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:11][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.171 +12228ms transport seek to=0.249 playing=false ready=4
+[2026-11-14][23:46:11][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:46:11.175 +12602ms click on=div.timeline-range-zone in="Working edit" across=0.016
+[2026-11-14][23:46:11][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.183 +13ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true seeking=true buf=[] frames=1/1
+[2026-11-14][23:46:11][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.490 +307ms seeked el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:46:11.965 +791ms click on=div.video-surface in="Working edit" across=0.141
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.965 +475ms transport play at=0.249 el=v3 ready=4
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.982 +16ms play el=v3 name="The current edit" src=/sample.mp4 t=0.449 ready=4 net=1 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.984 +3ms playing el=v3 name="The current edit" src=/sample.mp4 t=0.449 ready=4 net=1 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:11.992 +8ms jump el=v3 from=0.449 to=0.849 ms=6
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.072 +80ms jump el=v3 from=1.449 to=2.249 ms=39
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.092 +20ms jump el=v3 from=2.249 to=2.649 ms=21
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.139 +47ms jump el=v3 from=3.249 to=3.649 ms=16
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.157 +18ms jump el=v3 from=3.649 to=4.049 ms=18
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.199 +41ms jump el=v3 from=4.049 to=4.649 ms=41
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.236 +37ms jump el=v3 from=5.049 to=5.489 ms=15
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.268 +33ms jump el=v3 from=5.689 to=6.119 ms=16
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.318 +49ms jump el=v3 from=6.319 to=7.119 ms=37
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.337 +20ms jump el=v3 from=7.119 to=7.529 ms=15
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.357 +19ms jump el=v3 from=7.529 to=8.129 ms=19
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.375 +18ms jump el=v3 from=8.129 to=8.529 ms=18
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.394 +19ms jump el=v3 from=8.529 to=8.929 ms=19
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.442 +49ms jump el=v3 from=9.129 to=9.729 ms=37
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.496 +54ms jump el=v3 from=10.529 to=10.929 ms=18
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.515 +18ms jump el=v3 from=10.929 to=11.329 ms=18
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.599 +84ms jump el=v3 from=11.529 to=12.929 ms=67
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.647 +48ms jump el=v3 from=12.929 to=13.729 ms=48
+[2026-11-14][23:46:12][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.738 +91ms jump el=v3 from=13.929 to=15.529 ms=81
+[2026-11-14][23:46:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.781 +44ms jump el=v3 from=15.929 to=16.329 ms=21
+[2026-11-14][23:46:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.853 +72ms jump el=v3 from=16.329 to=17.729 ms=70
+[2026-11-14][23:46:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.881 +27ms jump el=v3 from=17.929 to=18.329 ms=20
+[2026-11-14][23:46:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:12.897 +16ms jump el=v3 from=18.329 to=18.729 ms=17
+[2026-11-14][23:46:14][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:14.077 +1181ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:14][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:14.080 +2ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:35][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:46:35.521 +23556ms click on=div.video-surface in="Working edit" across=0.005
+[2026-11-14][23:46:35][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.522 +21443ms transport play at=20 el=v3 ready=4
+[2026-11-14][23:46:35][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.535 +12ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=1/1
+[2026-11-14][23:46:35][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.544 +9ms play el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=1/1
+[2026-11-14][23:46:35][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.548 +5ms playing el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=1/1
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.815 +266ms waiting el=v3 name="The current edit" src=/sample.mp4 t=2.9 ready=2 net=2 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.817 +3ms seeked el=v3 name="The current edit" src=/sample.mp4 t=2.9 ready=2 net=2 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.819 +1ms jump el=v3 from=0 to=2.9 ms=11
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.836 +17ms jump el=v3 from=2.9 to=3.33 ms=16
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.853 +18ms jump el=v3 from=3.33 to=3.73 ms=17
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.868 +14ms jump el=v3 from=3.73 to=6.32 ms=15
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.898 +31ms jump el=v3 from=6.52 to=7.18 ms=14
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.941 +42ms jump el=v3 from=7.18 to=8.18 ms=43
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:35.967 +27ms jump el=v3 from=8.38 to=9.5 ms=16
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.025 +58ms jump el=v3 from=9.7 to=10.5 ms=48
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.059 +34ms jump el=v3 from=10.5 to=11.3 ms=35
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.079 +20ms jump el=v3 from=11.3 to=11.7 ms=12
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.148 +68ms jump el=v3 from=12.3 to=12.7 ms=18
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.242 +95ms jump el=v3 from=12.7 to=14.1 ms=89
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.262 +19ms jump el=v3 from=14.1 to=14.7 ms=24
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.349 +87ms jump el=v3 from=14.9 to=16.3 ms=72
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.396 +48ms jump el=v3 from=16.76 to=18 ms=15
+[2026-11-14][23:46:36][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:36.464 +67ms jump el=v3 from=18 to=19.91 ms=63
+[2026-11-14][23:46:39][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:39.444 +2980ms stalled el=v3 name="The current edit" src=/sample.mp4 t=20 ready=2 net=2 paused=false buf=[[0,20]] frames=2/2
+[2026-11-14][23:46:40][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:39.778 +335ms canplay el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=2/2
+[2026-11-14][23:46:40][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:39.778 +0ms playing el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=2/2
+[2026-11-14][23:46:40][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:39.778 +0ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=2/2
+[2026-11-14][23:46:40][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:39.781 +3ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=2/2
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:46:47.339 +11817ms click on="The current edit" kind=video in="Working edit"
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.339 +7557ms transport play at=20 el=v3 ready=4
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.346 +7ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=2/2
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.348 +3ms play el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=2/2
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.351 +2ms playing el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=2/2
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.506 +156ms waiting el=v3 name="The current edit" src=/sample.mp4 t=0 ready=2 net=2 paused=false seeking=true buf=[[0,20]] frames=2/2
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.557 +51ms seeked el=v3 name="The current edit" src=/sample.mp4 t=1 ready=2 net=2 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.559 +1ms jump el=v3 from=0 to=1 ms=6
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.592 +34ms jump el=v3 from=1.2 to=1.6 ms=18
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.660 +68ms jump el=v3 from=1.8 to=3.26 ms=61
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.671 +11ms jump el=v3 from=3.26 to=3.88 ms=11
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.688 +16ms jump el=v3 from=3.88 to=4.36 ms=17
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.703 +16ms jump el=v3 from=4.36 to=6.71 ms=15
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.762 +59ms jump el=v3 from=6.91 to=7.71 ms=40
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.787 +25ms jump el=v3 from=7.93 to=8.33 ms=16
+[2026-11-14][23:46:47][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.824 +37ms jump el=v3 from=8.33 to=8.93 ms=32
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.925 +100ms jump el=v3 from=9.33 to=10.73 ms=75
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:47.949 +25ms jump el=v3 from=10.93 to=11.33 ms=17
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.074 +125ms jump el=v3 from=11.73 to=13.37 ms=87
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.085 +10ms jump el=v3 from=13.37 to=13.73 ms=15
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.104 +20ms jump el=v3 from=13.73 to=14.13 ms=19
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.158 +54ms jump el=v3 from=14.13 to=15.47 ms=54
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.204 +46ms jump el=v3 from=15.87 to=16.47 ms=28
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.276 +72ms jump el=v3 from=16.87 to=17.87 ms=49
+[2026-11-14][23:46:48][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:48.320 +44ms jump el=v3 from=18.29 to=19.13 ms=17
+[2026-11-14][23:46:51][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:50.793 +2473ms canplay el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:51][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:50.794 +0ms playing el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:51][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:50.794 +1ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:51][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:50.797 +3ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:46:53][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:53.696 +2898ms seeking el=v4 name=video src=/sample.mp4 t=2.75 ready=4 net=1 paused=true seeking=true muted=true buf=[] frames=0/0
+[2026-11-14][23:46:53][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:53.787 +92ms transport seek to=2.83 playing=false ready=4
+[2026-11-14][23:46:53][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:46:53.792 +6454ms click on=div.timeline-range-zone in="Working edit" across=0.177
+[2026-11-14][23:46:53][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:53.846 +59ms seeking el=v3 name="The current edit" src=/sample.mp4 t=2.83 ready=4 net=1 paused=true seeking=true buf=[] frames=1/1
+[2026-11-14][23:46:53][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:53.848 +1ms canplay el=v4 name=video src=/sample.mp4 t=2.75 ready=4 net=1 paused=true muted=true buf=[[0,20]] frames=0/0
+[2026-11-14][23:46:53][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:53.850 +2ms seeked el=v4 name=video src=/sample.mp4 t=2.75 ready=4 net=1 paused=true muted=true buf=[[0,20]] frames=0/0
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:46:54.127 +335ms key key=Space
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.132 +283ms transport play at=2.83 el=v3 ready=4 by="@src/pages/WatchPage.tsx:588:47 < d@src/lib/hotkeys.ts:39:19"
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.155 +22ms play el=v3 name="The current edit" src=/sample.mp4 t=2.83 ready=4 net=1 paused=false seeking=true buf=[[0,20]] frames=2/1
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.157 +2ms playing el=v3 name="The current edit" src=/sample.mp4 t=2.83 ready=4 net=1 paused=false seeking=true buf=[[0,20]] frames=2/1
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.163 +7ms jump el=v3 from=2.83 to=3.63 ms=2
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.209 +46ms seeked el=v3 name="The current edit" src=/sample.mp4 t=3.63 ready=4 net=1 paused=false buf=[[0,20]] frames=2/1
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.215 +5ms jump el=v3 from=3.63 to=4.63 ms=53
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.250 +35ms jump el=v3 from=4.63 to=5.03 ms=34
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.275 +25ms jump el=v3 from=5.23 to=5.63 ms=16
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.291 +17ms jump el=v3 from=5.63 to=6.03 ms=16
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.323 +32ms jump el=v3 from=6.23 to=6.63 ms=16
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.370 +46ms jump el=v3 from=6.83 to=7.43 ms=36
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.403 +34ms jump el=v3 from=7.83 to=8.23 ms=16
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.494 +91ms jump el=v3 from=8.43 to=9.87 ms=71
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.561 +67ms jump el=v3 from=9.87 to=11.07 ms=66
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.575 +13ms jump el=v3 from=11.07 to=11.47 ms=14
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.596 +22ms jump el=v3 from=11.47 to=11.87 ms=16
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.707 +110ms jump el=v3 from=12.27 to=13.67 ms=85
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.754 +48ms jump el=v3 from=14.27 to=14.67 ms=13
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.830 +75ms jump el=v3 from=14.67 to=16.39 ms=75
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.855 +25ms jump el=v3 from=16.59 to=16.99 ms=16
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.926 +72ms jump el=v3 from=17.19 to=18.19 ms=57
+[2026-11-14][23:46:54][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.954 +27ms jump el=v3 from=18.39 to=18.79 ms=19
+[2026-11-14][23:46:55][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:54.983 +30ms jump el=v3 from=18.99 to=19.63 ms=16
+[2026-11-14][23:46:57][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:56.799 +1816ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=2/1
+[2026-11-14][23:46:57][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:46:56.804 +4ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=2/1
+[2026-11-14][23:47:02][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:02.711 +8584ms click on=section.cut-preview across=0.265
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:03.014 +303ms key key=Space
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.015 +6211ms transport play at=20 el=v3 ready=4 by="@src/pages/WatchPage.tsx:588:47 < d@src/lib/hotkeys.ts:39:19"
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.023 +8ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=2/1
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.026 +4ms play el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=2/1
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.028 +2ms playing el=v3 name="The current edit" src=/sample.mp4 t=0 ready=4 net=1 paused=false seeking=true buf=[] frames=2/1
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.250 +222ms seeked el=v3 name="The current edit" src=/sample.mp4 t=1.83 ready=4 net=1 paused=false buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.254 +3ms jump el=v3 from=0 to=1.83 ms=9
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.256 +3ms jump el=v3 from=1.83 to=2.26 ms=2
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.291 +34ms jump el=v3 from=2.46 to=2.86 ms=19
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.310 +20ms jump el=v3 from=2.86 to=3.26 ms=19
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.360 +49ms jump el=v3 from=3.46 to=4.06 ms=40
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.394 +34ms jump el=v3 from=4.46 to=4.86 ms=16
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.413 +19ms jump el=v3 from=4.86 to=5.26 ms=19
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.430 +18ms jump el=v3 from=5.26 to=5.66 ms=17
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.483 +53ms jump el=v3 from=5.86 to=7.15 ms=41
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.495 +12ms jump el=v3 from=7.15 to=7.55 ms=13
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.547 +52ms jump el=v3 from=7.75 to=8.55 ms=41
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.555 +8ms jump el=v3 from=8.55 to=8.81 ms=9
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.567 +12ms jump el=v3 from=8.81 to=9.18 ms=12
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.635 +68ms jump el=v3 from=9.18 to=10.6 ms=67
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.665 +30ms jump el=v3 from=10.8 to=11.2 ms=16
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.681 +16ms jump el=v3 from=11.2 to=11.6 ms=16
+[2026-11-14][23:47:03][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.775 +94ms jump el=v3 from=11.8 to=13.4 ms=81
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.807 +32ms jump el=v3 from=13.6 to=14 ms=13
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.860 +52ms jump el=v3 from=14.2 to=15 ms=43
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.911 +51ms jump el=v3 from=15.6 to=16 ms=16
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.931 +20ms jump el=v3 from=16 to=16.4 ms=20
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.971 +41ms jump el=v3 from=16.4 to=17.2 ms=35
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:03.995 +24ms jump el=v3 from=17.28 to=18.3 ms=16
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:04.027 +32ms jump el=v3 from=18.5 to=19.91 ms=16
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:04.684 +656ms pause el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:47:04][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:04.686 +3ms ended el=v3 name="The current edit" src=/sample.mp4 t=20 ready=4 net=1 paused=true buf=[] frames=1/1
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:13.006 +8320ms seeking el=v4 name=video src=/sample.mp4 t=0 ready=4 net=1 paused=true seeking=true muted=true buf=[] frames=0/0
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:13.040 +34ms canplay el=v4 name=video src=/sample.mp4 t=0 ready=4 net=1 paused=true muted=true buf=[[0,20]] frames=0/0
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:13.041 +0ms seeked el=v4 name=video src=/sample.mp4 t=0 ready=4 net=1 paused=true muted=true buf=[[0,20]] frames=0/0
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:13.135 +95ms transport seek to=0.249 playing=false ready=4
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:13.146 +10131ms click on=div.timeline-range-zone in="Working edit" across=0.016
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:13.156 +21ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true seeking=true buf=[] frames=1/1
+[2026-11-14][23:47:13][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:13.449 +293ms seeked el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:14][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:14.205 +1060ms key key=g
+[2026-11-14][23:47:15][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:15.334 +1128ms key key=Enter in="Jump to a time"
+[2026-11-14][23:47:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:15.335 +1886ms transport seek to=5.6 playing=false ready=4
+[2026-11-14][23:47:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:15.353 +17ms seeking el=v3 name="The current edit" src=/sample.mp4 t=5.6 ready=4 net=1 paused=true seeking=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:15.600 +248ms seeked el=v3 name="The current edit" src=/sample.mp4 t=5.6 ready=4 net=1 paused=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:16][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:16.050 +717ms key key=g
+[2026-11-14][23:47:16][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:16.716 +666ms key key=Enter in="Jump to a time"
+[2026-11-14][23:47:16][scarlet_desktop_lib::commands][WARN] [ui] [error] 23:47:16.718 +0ms alert message="Enter a time between 0:00 and 0:16." in="Working edit"
+[2026-11-14][23:47:17][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:17.307 +591ms key key=Escape in="Jump to a time"
+[2026-11-14][23:47:28][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:27.995 +12394ms transport seek to=0.249 playing=false ready=4
+[2026-11-14][23:47:28][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:28.001 +10694ms click on=div.timeline-range-zone in="Working edit" across=0.016
+[2026-11-14][23:47:28][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:28.008 +13ms seeking el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true seeking=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:28][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:28.088 +80ms seeked el=v3 name="The current edit" src=/sample.mp4 t=0.249 ready=4 net=1 paused=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:39][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:39.452 +11451ms key key=g
+[2026-11-14][23:47:43][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:43.346 +3894ms key key=Enter in="Jump to a time"
+[2026-11-14][23:47:43][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:43.346 +15259ms transport seek to=5.6 playing=false ready=4
+[2026-11-14][23:47:43][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:43.361 +15ms seeking el=v3 name="The current edit" src=/sample.mp4 t=5.6 ready=4 net=1 paused=true seeking=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:43][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:43.585 +224ms seeked el=v3 name="The current edit" src=/sample.mp4 t=5.6 ready=4 net=1 paused=true buf=[[0,20]] frames=1/1
+[2026-11-14][23:47:47][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:47.742 +4396ms key key=g
+[2026-11-14][23:47:50][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:50.343 +2600ms key key=Enter in="Jump to a time"
+[2026-11-14][23:47:50][scarlet_desktop_lib::commands][WARN] [ui] [error] 23:47:50.344 +33625ms alert message="Enter a time between 0:00 and 0:16." in="Working edit"
+[2026-11-14][23:47:55][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:54.950 +4607ms key key=Escape in="Jump to a time"

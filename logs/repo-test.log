@@ -1,0 +1,124 @@
+=== pnpm -r test 2026-11-14T23:19:16+00:00 ===
+Scope: 8 of 9 workspace projects
+apps/desktop test$ node -e "console.log(\"@scarlet/desktop: Rust tests run via pnpm desktop:test (cargo test)\")"
+packages/timeline test$ vitest run
+apps/desktop test: @scarlet/desktop: Rust tests run via pnpm desktop:test (cargo test)
+apps/desktop test: Done
+packages/timeline test: 
+packages/timeline test:  RUN  v4.1.12 /workspace/packages/timeline
+packages/timeline test: 
+packages/timeline test: 
+packages/timeline test:  Test Files  12 passed (12)
+packages/timeline test:       Tests  215 passed (215)
+packages/timeline test:    Start at  23:19:17
+packages/timeline test:    Duration  920ms (transform 648ms, setup 0ms, import 1.15s, tests 473ms, environment 1ms)
+packages/timeline test: 
+packages/timeline test: Done
+packages/render test$ vitest run
+packages/shared test$ vitest run --passWithNoTests
+packages/shared test: 
+packages/shared test:  RUN  v4.1.12 /workspace/packages/shared
+packages/shared test: 
+packages/render test: 
+packages/render test:  RUN  v4.1.12 /workspace/packages/render
+packages/render test: 
+packages/render test:  ❯ src/exec.test.ts (20 tests | 2 failed | 1 skipped) 502ms
+packages/render test:      × reports each time ffmpeg prints, in order, while it runs 85ms
+packages/render test:      × names the cause of a refused encode, which ffmpeg writes first and follows with what came of it 53ms
+packages/shared test: 
+packages/shared test:  Test Files  13 passed (13)
+packages/shared test:       Tests  123 passed (123)
+packages/shared test:    Start at  23:19:18
+packages/shared test:    Duration  1.28s (transform 894ms, setup 0ms, import 1.75s, tests 349ms, environment 1ms)
+packages/shared test: 
+packages/shared test: Done
+apps/web test$ vitest run --passWithNoTests
+packages/mcp test$ vitest run --passWithNoTests
+packages/mcp test: 
+packages/mcp test:  RUN  v4.1.12 /workspace/packages/mcp
+packages/mcp test: 
+apps/web test: 
+apps/web test:  RUN  v4.1.12 /workspace/apps/web
+apps/web test: 
+packages/mcp test: 
+packages/mcp test:  Test Files  20 passed (20)
+packages/mcp test:       Tests  337 passed (337)
+packages/mcp test:    Start at  23:19:19
+packages/mcp test:    Duration  15.66s (transform 3.52s, setup 0ms, import 9.06s, tests 16.59s, environment 1ms)
+packages/mcp test: 
+packages/mcp test: Done
+apps/agent test$ vitest run --passWithNoTests
+apps/agent test: 
+apps/agent test:  RUN  v4.1.12 /workspace/apps/agent
+apps/agent test: 
+apps/agent test: 
+apps/agent test:  Test Files  10 passed (10)
+apps/agent test:       Tests  154 passed (154)
+apps/agent test:    Start at  23:19:36
+apps/agent test:    Duration  8.12s (transform 2.94s, setup 0ms, import 5.54s, tests 16.67s, environment 1ms)
+apps/agent test: 
+apps/agent test: Done
+packages/render test:  ❯ src/render.test.ts (94 tests | 1 failed) 52709ms
+packages/render test:        × retries an export on the next GPU under its own cache key when an encoder fails on footage 59ms
+packages/render test: 
+packages/render test: ⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+packages/render test: 
+packages/render test:  FAIL  src/exec.test.ts > progress lines > reports each time ffmpeg prints, in order, while it runs
+packages/render test: AssertionError: expected 0.9 to be close to 1, received difference is 0.09999999999999998, but expected 0.05
+packages/render test:  ❯ src/exec.test.ts:101:26
+packages/render test:      99|     await runFfmpeg(["-f", "lavfi", "-i", "color=c=black:s=16x16:r=10:…
+packages/render test:     100|     expect(times.length).toBeGreaterThan(0);
+packages/render test:     101|     expect(times.at(-1)).toBeCloseTo(1, 1);
+packages/render test:        |                          ^
+packages/render test:     102|     expect([...times].sort((a, b) => a - b)).toEqual(times);
+packages/render test:     103|   });
+packages/render test: 
+packages/render test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+packages/render test: 
+packages/render test:  FAIL  src/exec.test.ts > failures > names the cause of a refused encode, which ffmpeg writes first and follows with what came of it
+packages/render test: AssertionError: expected { stdout: Buffer[], stderr: '', …(1) } to be an instance of FfmpegError
+packages/render test:  ❯ src/exec.test.ts:167:21
+packages/render test:     165|       "-frames:v", "1", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-f"…
+packages/render test:     166|     const refused = await encode();
+packages/render test:     167|     expect(refused).toBeInstanceOf(FfmpegError);
+packages/render test:        |                     ^
+packages/render test:     168|     expect(refused.started).toBe(true);
+packages/render test:     169|     expect(stderrTail(refused.stderr, 1)).not.toContain("15x15");
+packages/render test: 
+packages/render test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+packages/render test: 
+packages/render test:  FAIL  src/render.test.ts > render > what a render fell back from > retries an export on the next GPU under its own cache key when an encoder fails on footage
+packages/render test: FfmpegError: ffmpeg exited with code 8:
+packages/render test: Unrecognized option '/filter_complex'.
+packages/render test: Error splitting the argument list: Option not found
+packages/render test: --- filter graph ---
+packages/render test: color=c=0x101010:s=320x180:r=30:d=1[base];
+packages/render test: [0:v]trim=duration=1,setpts=(PTS-STARTPTS),scale=w='max(2,trunc(iw*min(320/iw,180/ih)*1/2)*2)':h='max(2,trunc(ih*min(320/iw,180/ih)*1/2)*2)':flags=bicubic,format=yuva420p,fade=t=in:st=0:d=0.5:alpha=1[v0];
+packages/render test: [base][v0]overlay=x='(W-w)/2':y='(H-h)/2':eof_action=pass:enable='between(t,-0.001,1)'[s1];
+packages/render test: [s1]drawtext=fontfile=/usr/share/fonts/truetype/macos/Inter-Regular.ttf:textfile=/tmp/scarlet-graph-2Y7fEU/caption-0.txt:expansion=none:fontsize=14:fontcolor=0xFFFFFF:line_spacing=3:box=1:boxcolor=0x000000@0.502:boxborderw=4:x=(w-text_w)/2:y=153-text_h/2:enable='between(t,0.499,0.999)'[s2];
+packages/render test: [s2]trim=duration=1,setpts=PTS-STARTPTS,format=yuv420p[vout]
+packages/render test: 
+packages/render test:  ❯ ChildProcess.<anonymous> src/exec.ts:321:23
+packages/render test:     319|       if (aborted) return reject(new AbortError());
+packages/render test:     320|       if (code !== 0) {
+packages/render test:     321|         return reject(new FfmpegError(`ffmpeg exited with code ${code}…
+packages/render test:        |                       ^
+packages/render test:     322|       }
+packages/render test:     323|       resolve({ stderr: err });
+packages/render test: 
+packages/render test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+packages/render test: 
+packages/render test: 
+packages/render test:  Test Files  2 failed | 8 passed (10)
+packages/render test:       Tests  3 failed | 155 passed | 1 skipped (159)
+packages/render test:    Start at  23:19:18
+packages/render test:    Duration  53.61s (transform 1.19s, setup 0ms, import 2.24s, tests 94.49s, environment 1ms)
+packages/render test: 
+packages/render test: Failed
+[ELIFECYCLE] Test failed. See above for more details.
+apps/web test: Failed
+[ELIFECYCLE] Command failed with signal SIGKILL.
+Error: ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL
+
+  × "pnpm recursive run" failed in /workspace/packages/render
+

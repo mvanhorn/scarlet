@@ -1,0 +1,18 @@
+$ pnpm -r typecheck
+packages/timeline typecheck$ tsc -p tsconfig.json --noEmit
+apps/desktop typecheck$ node -e "process.exit(0)"
+apps/desktop typecheck: Done
+packages/timeline typecheck: Done
+packages/render typecheck$ tsc -p tsconfig.json --noEmit
+packages/shared typecheck$ tsc -p tsconfig.json --noEmit
+packages/render typecheck: Done
+packages/shared typecheck: Done
+apps/web typecheck$ tsc -p tsconfig.json --noEmit
+packages/mcp typecheck$ tsc -p tsconfig.json --noEmit
+packages/mcp typecheck: Done
+apps/agent typecheck$ tsc -p tsconfig.json --noEmit
+apps/agent typecheck: Done
+apps/server typecheck$ tsc -p tsconfig.json --noEmit
+apps/server typecheck: Done
+apps/web typecheck: Done
+TYPECHECK_EXIT=0

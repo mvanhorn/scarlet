@@ -1,0 +1,11 @@
+[STREAM]
+codec_name=gif
+width=960
+height=758
+r_frame_rate=12/1
+nb_frames=288
+[/STREAM]
+[FORMAT]
+duration=24.000000
+size=621186
+[/FORMAT]

@@ -1,0 +1,70 @@
+# Jump the playhead to a time you type — commands run
+# Host: Ubuntu 24.04, private Xvfb :99 1920x1080, isolated Pulse/ALSA, native `pnpm desktop:demo`
+# Source: feat/jump-to-timecode 16a6652576071c0d579dce457108c4c218bfd8f5 (unchanged)
+
+## Checks (from the review-fix run of this commit)
+
+$ pnpm --filter @scarlet/web test
+# exit 0
+# Test Files  112 passed (112)
+# Tests  1339 passed (1339)
+# Duration  117.31s
+
+$ pnpm typecheck
+# exit 0
+# apps/desktop, packages/timeline, packages/render, packages/shared,
+# packages/mcp, apps/agent, apps/server, apps/web: Done
+
+## Earlier full-repo checks (unchanged code paths)
+
+$ pnpm --filter @scarlet/server test
+# exit 0
+# Test Files  75 passed (75)
+# Tests  977 passed | 7 skipped (984)
+
+$ pnpm -r test
+# timeline: 12 files, 215 passed
+# shared: 13 files, 123 passed
+# mcp: 20 files, 337 passed
+# agent: 10 files, 154 passed
+# render: 3 failed on this machine's ffmpeg (not this change)
+# overall exit 1 from packages/render
+
+$ pnpm -r lint
+# exit 1 — the repo has no lint script
+
+## Native demo (re-recorded from 16a6652)
+
+$ Xvfb :99 -screen 0 1920x1080x24 -nolisten tcp
+# exit 0 (display :99)
+
+$ DISPLAY=:99 … dbus-run-session -- pnpm desktop:demo
+# window: Scarlet 1440x900 at 240,90 on :99
+
+# Drive: hover clock → G → type 0:05.600 → Enter → G → type 0:40 → Enter → Escape
+# Native log (scarlet-desktop.log):
+# key key=g
+# key key=Enter in="Jump to a time"
+# transport seek to=5.6 playing=false
+# seeked … t=5.6 … paused=true
+# key key=g
+# key key=Enter in="Jump to a time"
+# alert message="Enter a time between 0:00 and 0:16." in="Working edit"
+# key key=Escape in="Jump to a time"
+
+$ ffmpeg -i out-full.mp4 -vf "crop=1040:820:640:140" -c:v libx264 -pix_fmt yuv420p -r 30 -t 24 out.mp4
+# exit 0
+# h264 yuv420p 1040x820 30 fps 24.000s 720 frames 267K
+
+$ ffmpeg -i out-full.mp4 -vf "crop=1040:820:640:140,fps=12,scale=960:758:flags=lanczos,palettegen=max_colors=64:stats_mode=diff" palette.png
+$ ffmpeg -i out-full.mp4 -i palette.png -lavfi "crop=1040:820:640:140,fps=12,scale=960:758:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" preview.gif
+# exit 0
+# gif 960x758 12 fps 24.000s 288 frames 607K
+
+Times on screen:
+- Before: clock 0:00 / 0:16, overlay 0:00:00.233, playhead at start
+- Typed: 0:05.600
+- After Enter: clock 0:05 / 0:16, overlay 0:00:05.600, playhead ~0:05, paused
+- Typed past end: 0:40
+- After Enter: field still open, error "Enter a time between 0:00 and 0:16.", overlay still 0:00:05.600, playhead unmoved
+- After Escape: field closed, clock 0:05 / 0:16, playhead unmoved

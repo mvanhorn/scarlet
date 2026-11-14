@@ -1,0 +1,5 @@
+=== lint 2026-11-14T23:20:11+00:00 ===
+Error: ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL
+
+  × "pnpm recursive exec" failed in /workspace/apps/desktop
+

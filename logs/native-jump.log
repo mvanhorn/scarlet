@@ -1,0 +1,15 @@
+109:[2026-11-14][23:45:58][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:45:58.573 +800ms key key=g
+278:[2026-11-14][23:47:14][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:14.205 +1060ms key key=g
+279:[2026-11-14][23:47:15][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:15.334 +1128ms key key=Enter in="Jump to a time"
+280:[2026-11-14][23:47:15][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:15.335 +1886ms transport seek to=5.6 playing=false ready=4
+283:[2026-11-14][23:47:16][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:16.050 +717ms key key=g
+284:[2026-11-14][23:47:16][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:16.716 +666ms key key=Enter in="Jump to a time"
+285:[2026-11-14][23:47:16][scarlet_desktop_lib::commands][WARN] [ui] [error] 23:47:16.718 +0ms alert message="Enter a time between 0:00 and 0:16." in="Working edit"
+286:[2026-11-14][23:47:17][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:17.307 +591ms key key=Escape in="Jump to a time"
+291:[2026-11-14][23:47:39][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:39.452 +11451ms key key=g
+292:[2026-11-14][23:47:43][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:43.346 +3894ms key key=Enter in="Jump to a time"
+293:[2026-11-14][23:47:43][scarlet_desktop_lib::commands][INFO] [ui] [playback] 23:47:43.346 +15259ms transport seek to=5.6 playing=false ready=4
+296:[2026-11-14][23:47:47][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:47.742 +4396ms key key=g
+297:[2026-11-14][23:47:50][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:50.343 +2600ms key key=Enter in="Jump to a time"
+298:[2026-11-14][23:47:50][scarlet_desktop_lib::commands][WARN] [ui] [error] 23:47:50.344 +33625ms alert message="Enter a time between 0:00 and 0:16." in="Working edit"
+299:[2026-11-14][23:47:55][scarlet_desktop_lib::commands][INFO] [ui] [action] 23:47:54.950 +4607ms key key=Escape in="Jump to a time"

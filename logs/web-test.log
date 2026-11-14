@@ -1,0 +1,11 @@
+$ vitest run --passWithNoTests
+
+ RUN  v4.1.12 /workspace/apps/web
+
+
+ Test Files  112 passed (112)
+      Tests  1339 passed (1339)
+   Start at  23:35:02
+   Duration  117.31s (transform 6.77s, setup 483ms, import 19.83s, tests 139.56s, environment 17.26s)
+
+WEB_EXIT=0
