@@ -1,0 +1,3 @@
+$ pnpm --filter @scarlet/server test
+ Test Files  77 passed (77)
+      Tests  1006 passed | 7 skipped (1013)

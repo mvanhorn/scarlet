@@ -1,0 +1,71 @@
+# Native Scarlet (pnpm desktop:demo) on private Xvfb DISPLAY=:99, 1920x1080.
+# Window: Scarlet, cropped to ~960 px in the GIF. Isolated sample interview.
+# Save folder: ~/Videos/Exports (cleared first; no replace prompts).
+# GTK bookmarks: only file:///home/ubuntu/Videos/Exports. No src-tauri.
+# GTK save dialog: Home, Videos, Exports, Other Locations in the sidebar.
+# SubRip captions / WebVTT captions filter. Name field on the project name.
+
+$ Xvfb :99 -screen 0 1920x1080x24 -nolisten tcp
+# running (tmux)
+
+$ DISPLAY=:99 xfwm4 --compositor=off
+# running on :99 only (the session on :1 was left alone)
+
+$ pnpm desktop:demo
+# running (tmux scarlet-demo), Vite http://127.0.0.1:5174, binary apps/desktop/src-tauri/target/debug/scarlet-desktop
+# launched from /home/ubuntu/Videos/Exports so the GTK dialog cwd is not src-tauri
+
+# Export → Captions (.srt) → Save "~/Videos/Exports/Weekly interview — AI agents.srt"
+# Export → Captions (.vtt) → Save "~/Videos/Exports/Weekly interview — AI agents.vtt"
+# Range → Custom range, From 0:01.000, To 0:06.000 → Save "~/Videos/Exports/Weekly interview — range.srt"
+# Tech brief — GPU shortage → Captions (.srt): Export stays off.
+
+$ cat "/home/ubuntu/Videos/Exports/Weekly interview — AI agents.srt"
+1
+00:00:00,200 --> 00:00:02,400
+Welcome back
+
+2
+00:00:05,600 --> 00:00:08,000
+Three things today
+
+$ cat "/home/ubuntu/Videos/Exports/Weekly interview — AI agents.vtt"
+WEBVTT
+
+00:00:00.200 --> 00:00:02.400
+Welcome back
+
+00:00:05.600 --> 00:00:08.000
+Three things today
+
+$ cat "/home/ubuntu/Videos/Exports/Weekly interview — range.srt"
+1
+00:00:00,000 --> 00:00:01,400
+Welcome back
+
+2
+00:00:04,600 --> 00:00:05,000
+Three things today
+
+--- checks (after rebase onto upstream/main 9f966e9) ---
+
+$ pnpm --filter @scarlet/agent build
+$ pnpm --filter @scarlet/mcp build
+$ node apps/server/scripts/gen-skills.mjs
+[gen-skills] bundled 3 skill(s) into src/bundledSkills.ts
+
+$ pnpm --filter @scarlet/timeline typecheck   # passed
+$ pnpm --filter @scarlet/shared typecheck     # passed
+$ pnpm --filter @scarlet/mcp typecheck        # passed
+$ pnpm --filter @scarlet/agent typecheck      # passed
+$ pnpm --filter @scarlet/server typecheck     # passed
+$ pnpm --filter @scarlet/web typecheck        # passed
+
+$ pnpm --filter @scarlet/timeline test        # 13 files, 253 passed
+$ pnpm --filter @scarlet/shared test          # 13 files, 123 passed
+$ pnpm --filter @scarlet/server test          # 77 files, 1006 passed, 7 skipped
+$ pnpm --filter @scarlet/web test             # 115 files, 1343 passed
+$ pnpm --filter @scarlet/mcp test             # 20 files, 339 passed
+$ pnpm --filter @scarlet/agent test           # 10 files, 155 passed
+$ cargo test --locked --manifest-path apps/desktop/src-tauri/Cargo.toml
+# 181 passed

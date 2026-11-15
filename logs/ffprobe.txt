@@ -1,0 +1,21 @@
+duration=28.300000
+size=384786
+---
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/demo-r2/out.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:28.30, start: 0.000000, bitrate: 108 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 960x618, 105 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+--- gif ---
+Input #0, gif, from '/tmp/demo-r2/preview.gif':
+  Duration: 00:00:28.33, start: 0.000000, bitrate: 448 kb/s
+  Stream #0:0: Video: gif, bgra, 960x618, 12.50 fps, 12 tbr, 100 tbn
+-rw-r--r-- 1 ubuntu ubuntu  384786 Nov 15 00:43 /tmp/demo-r2/out.mp4
+-rw-r--r-- 1 ubuntu ubuntu 1587539 Nov 15 00:43 /tmp/demo-r2/preview.gif

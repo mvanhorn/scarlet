@@ -1,0 +1,2 @@
+$ cargo test --locked --manifest-path apps/desktop/src-tauri/Cargo.toml
+test result: ok. 181 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out

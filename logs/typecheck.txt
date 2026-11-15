@@ -1,0 +1,12 @@
+$ pnpm --filter @scarlet/agent build
+$ pnpm --filter @scarlet/mcp build
+$ node apps/server/scripts/gen-skills.mjs
+[gen-skills] bundled 3 skill(s) into src/bundledSkills.ts
+
+$ pnpm --filter @scarlet/timeline typecheck
+$ pnpm --filter @scarlet/shared typecheck
+$ pnpm --filter @scarlet/mcp typecheck
+$ pnpm --filter @scarlet/agent typecheck
+$ pnpm --filter @scarlet/server typecheck
+$ pnpm --filter @scarlet/web typecheck
+All six packages passed (exit 0).

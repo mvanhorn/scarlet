@@ -1,0 +1,3 @@
+$ pnpm --filter @scarlet/mcp test
+ Test Files  20 passed (20)
+      Tests  339 passed (339)
